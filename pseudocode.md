@@ -19,7 +19,7 @@
         
         Use Thunder Client to prove the functionality of the Create, Read, Update, and Delete Routes. You can also test some routes in the browser, as long as they are GET routes.
         
-## Route Requirements: ##
+#### Route Requirements: ####
     
         GET for all models at /api/[model-name]/ - returns all objects for that model (nested data is unnecessary for MVP, just FKs in the field data is ok)
         
