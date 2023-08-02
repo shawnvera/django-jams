@@ -24,7 +24,7 @@
 
 from django.urls import include, path
 from rest_framework import routers
-from music.jams import views
+from jams import views
 
 router = routers.DefaultRouter()
 router.register(r'Genre', views.GenreViewSet)
