@@ -42,5 +42,6 @@
     Won't have:
         Hook this DB up to a React frontend. 
         
+# Data flow diagram #
 
-    
+![Music flow diagram](img/Django%20Jams%20diagram.png)
