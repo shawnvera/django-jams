@@ -15,3 +15,7 @@ class Album(models.Model):
 class Song(models.Model):
     name = models.CharField(max_length=50)
     album_id = models.ManyToManyField('Album')
+
+class Play(models.Model):
+    name = models.CharField(max_length=50)
+    song_id = models.ForeignKey('Song', on_delete=models.CASCADE)
