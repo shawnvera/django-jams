@@ -44,4 +44,4 @@
         
 # Data flow diagram #
 
-![Music flow diagram](img/Django%20Jams%20diagram.png)
+![Music flow diagram](img/django%20jams.png)
