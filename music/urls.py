@@ -27,10 +27,10 @@ from rest_framework import routers
 from jams import views
 
 router = routers.DefaultRouter()
-router.register(r'Genre', views.GenreViewSet)
-router.register(r'Artists', views.ArtistViewSet)
-router.register(r'Albums', views.AlbumViewSet)
-router.register(r'Songs', views.SongViewSet)
+router.register(r'genre', views.GenreViewSet)
+router.register(r'artists', views.ArtistViewSet)
+router.register(r'albums', views.AlbumViewSet)
+router.register(r'songs', views.SongViewSet)
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
